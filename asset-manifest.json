@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.5d637275.css",
-    "main.js": "/github-page/static/js/main.cfdc477d.js",
-    "static/js/453.d75535ce.chunk.js": "/github-page/static/js/453.d75535ce.chunk.js",
-    "static/media/images.jpeg": "/github-page/static/media/images.2fa1856f10b8f3c12e19.jpeg",
-    "static/media/images2.jpeg": "/github-page/static/media/images2.8e02e8ba6c3dca7246d1.jpeg",
-    "static/media/images5.jpeg": "/github-page/static/media/images5.7dad25e4fc38fb860bd9.jpeg",
-    "static/media/images6.jpeg": "/github-page/static/media/images6.7dad25e4fc38fb860bd9.jpeg",
-    "static/media/images4.jpeg": "/github-page/static/media/images4.2fb16a4f28cacdd4c926.jpeg",
-    "static/media/images8.jpeg": "/github-page/static/media/images8.bcf8bf998a8d19f582d0.jpeg",
-    "static/media/images7.jpeg": "/github-page/static/media/images7.2c9126c336d3a60d4e40.jpeg",
-    "static/media/images3.jpeg": "/github-page/static/media/images3.7f053ed9fc067a583d3a.jpeg",
-    "static/media/icon-music.jpg": "/github-page/static/media/icon-music.fd8701d32406533f0b26.jpg",
-    "index.html": "/github-page/index.html",
-    "main.5d637275.css.map": "/github-page/static/css/main.5d637275.css.map",
-    "main.cfdc477d.js.map": "/github-page/static/js/main.cfdc477d.js.map",
-    "453.d75535ce.chunk.js.map": "/github-page/static/js/453.d75535ce.chunk.js.map"
+    "main.css": "/Love-Timeline/static/css/main.5d637275.css",
+    "main.js": "/Love-Timeline/static/js/main.03cb873f.js",
+    "static/js/453.d75535ce.chunk.js": "/Love-Timeline/static/js/453.d75535ce.chunk.js",
+    "static/media/images.jpeg": "/Love-Timeline/static/media/images.2fa1856f10b8f3c12e19.jpeg",
+    "static/media/images2.jpeg": "/Love-Timeline/static/media/images2.8e02e8ba6c3dca7246d1.jpeg",
+    "static/media/images5.jpeg": "/Love-Timeline/static/media/images5.7dad25e4fc38fb860bd9.jpeg",
+    "static/media/images6.jpeg": "/Love-Timeline/static/media/images6.7dad25e4fc38fb860bd9.jpeg",
+    "static/media/images4.jpeg": "/Love-Timeline/static/media/images4.2fb16a4f28cacdd4c926.jpeg",
+    "static/media/images8.jpeg": "/Love-Timeline/static/media/images8.bcf8bf998a8d19f582d0.jpeg",
+    "static/media/images7.jpeg": "/Love-Timeline/static/media/images7.2c9126c336d3a60d4e40.jpeg",
+    "static/media/images3.jpeg": "/Love-Timeline/static/media/images3.7f053ed9fc067a583d3a.jpeg",
+    "static/media/icon-music.jpg": "/Love-Timeline/static/media/icon-music.fd8701d32406533f0b26.jpg",
+    "index.html": "/Love-Timeline/index.html",
+    "main.5d637275.css.map": "/Love-Timeline/static/css/main.5d637275.css.map",
+    "main.03cb873f.js.map": "/Love-Timeline/static/js/main.03cb873f.js.map",
+    "453.d75535ce.chunk.js.map": "/Love-Timeline/static/js/453.d75535ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d637275.css",
-    "static/js/main.cfdc477d.js"
+    "static/js/main.03cb873f.js"
   ]
 }
