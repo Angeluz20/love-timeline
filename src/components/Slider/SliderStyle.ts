@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-interface NavButtonProps {
-  left?: boolean;
-}
-
 interface DotProps {
   active: boolean;
 }
@@ -82,40 +78,6 @@ export const CenterImage = styled.img`
       opacity: 1;
       transform: scale(1);
     }
-  }
-`;
-
-export const NavButton = styled.button<NavButtonProps>`
-  position: absolute;
-  top: 50%;
-  ${({ left }) => (left ? "left: 8px;" : "right: 8px;")}
-  transform: translateY(-50%);
-  color: #b72248;
-  border: 0;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  font-size: 22px;
-  cursor: pointer;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-  z-index: 5;
-  transition: transform 0.15s ease, background 0.15s ease;
-
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px) saturate(150%);
-  -webkit-backdrop-filter: blur(10px) saturate(150%);
-  border-radius: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-
-  &:hover {
-    transform: translateY(-50%) scale(1.05);
-    // background: #fff;
-  }
-
-  @media (max-width: 480px) {
-    width: 38px;
-    height: 38px;
-    font-size: 18px;
   }
 `;
 

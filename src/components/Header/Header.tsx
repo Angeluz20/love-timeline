@@ -1,8 +1,6 @@
-import React from "react";
 import { Container, ContentHeader, TitleHeader } from "./HeaderStyle";
 import Lottie from "lottie-react";
 import hearts from "../../assets/heart-burst.json"
-import { BsArrowThroughHeartFill } from "react-icons/bs";
 
 const Header = () => {
     const cleanedAnimation = {
@@ -27,7 +25,6 @@ const Header = () => {
           <br />
           Agora é com você: rola pra baixo e vem descobrir o que preparei!
         </p>
-        {/* <BsArrowThroughHeartFill size={40} style={{marginBottom:"18px"}}/> */}
       </ContentHeader>
         <Lottie
         animationData={cleanedAnimation}
