@@ -1,5 +1,3 @@
-import hearts from "./assets/heart-burst.json"
-
 import './App.css';
 import Home from './screens/Home/HomePage';
 import { ContainerMain } from './AppStyle';

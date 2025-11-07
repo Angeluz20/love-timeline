@@ -17,7 +17,6 @@ import image5 from "../../assets/images5.jpeg";
 import image6 from "../../assets/images6.jpeg";
 import image7 from "../../assets/images7.jpeg";
 import image8 from "../../assets/images8.jpeg";
-import backdrop from "../../assets/nh.jpg";
 
 const images = [image1, image2, image3, image4, image5, image6, image7, image8];
 
@@ -44,22 +43,6 @@ const Slider: React.FC = () => {
     });
   }, []);
 
-  const prev = () => {
-    setFade(true);
-    setTimeout(() => {
-      setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
-      setFade(false);
-    }, 400);
-  };
-
-  const next = () => {
-    setFade(true);
-    setTimeout(() => {
-      setCurrentIndex((prev) => (prev + 1) % images.length);
-      setFade(false);
-    }, 400);
-  };
-
   return (
     <Container>
       <TitleSection>Nossos momentos</TitleSection>
@@ -71,13 +54,6 @@ const Slider: React.FC = () => {
             className={fade ? "fade-out" : "fade-in"}
           />
         </ImageWrapper>
-
-        {/* <NavButton left onClick={prev} aria-label="Anterior">
-          ❮
-        </NavButton>
-        <NavButton onClick={next} aria-label="Próximo">
-          ❯
-        </NavButton> */}
 
         <DotsContainer>
           {images.map((_, i) => (
